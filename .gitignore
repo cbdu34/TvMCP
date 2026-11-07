@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets & certificats — ne JAMAIS versionner
+*.pem
+*.key
+*.crt
+.env
+.env.*
+*.token
+credentials.json
+session.json
+app.json
+
+# Éditeurs / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Logs & fichiers temporaires
+*.log
+*.out
